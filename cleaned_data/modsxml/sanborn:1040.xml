@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mods xmlns="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd" version="3.5">
+<mods xmlns="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xs="http://www.w3.org/2001/XMLSchema"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-5.xsd"
+      version="3.5">
    <identifier type="local">sanborn_1040</identifier>
    <identifier type="local">sanborn:1040</identifier>
    <identifier type="local">sanborn_knoxville1890_0027</identifier>
-   <name authority="naf" valueURI="http://id.loc.gov/authorities/names/no97057603">
+   <name authority="naf"
+         valueURI="http://id.loc.gov/authorities/names/no97057603">
       <namePart>Sanborn Map &amp; Publishing Co.</namePart>
       <role>
-         <roleTerm type="text" authority="marcrelator" valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
+         <roleTerm type="text"
+                   authority="marcrelator"
+                   valueURI="http://id.loc.gov/vocabulary/relators/cre">Creator</roleTerm>
       </role>
    </name>
    <titleInfo>
@@ -36,11 +44,10 @@
    </language>
    <location>
       <physicalLocation>University of Tennessee, Knoxville. Special Collections</physicalLocation>
-      
-      
    </location>
    <subject>
-      <geographic authority="naf" valueURI="http://id.loc.gov/authorities/names/n79109786">Knoxville (Tenn.)</geographic>
+      <geographic authority="naf"
+                  valueURI="http://id.loc.gov/authorities/names/n79109786">Knoxville (Tenn.)</geographic>
       <cartographics>
          <coordinates>35.96064, -83.92074</coordinates>
       </cartographics>
@@ -57,7 +64,8 @@
       </location>
       <abstract>The Sanborn Fire Insurance Maps are a large-scale representation of the growth and layout of American cities. The University of Tennessee Libraries' collection currently provides digital versions of the four earliest sets of Knoxville maps - 1884, 1890, 1903, and 1917.</abstract>
    </relatedItem>
-   <accessCondition type="use and reproduction">Public domain.</accessCondition>
+   <accessCondition type="use and reproduction"
+                    xlink:href="http://rightsstatements.org/vocab/NoC-US/1.0/">No Copyright - United States</accessCondition>
    <recordInfo>
       <recordIdentifier>record_sanborn_1040</recordIdentifier>
       <recordContentSource>University of Tennessee, Knoxville. Libraries</recordContentSource>
